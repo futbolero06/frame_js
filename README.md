@@ -48,3 +48,19 @@ JavaScript permite la comunicación entre el documento principal (la página que
  <iframe src="https://television.libre.futbol/tv2/" frameborder="10" width="400" height="200""></iframe>
 
 </html>
+
+- ejemplo #2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <frameset cols="200px,*">  <frame src="1.html" name="navFrame">  <frame src="2.html" name="contentFrame">  </frameset>
+
+
+</html>
